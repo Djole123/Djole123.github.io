@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Previous Works </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed|Open+Sans|Roboto" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="Styling.css">
+</head>
+<body id = "general">
+
+<div>
+	<nav>
+		<ul id = "navbar">
+            <li><a href="ContactInfo.html"> Contact Me </a></li>
+			<li><a id="currentPage"> Previous Works </a></li>
+			<li><a href="ProjectsBlog.html"> Blog </a></li>
+            <li><a href="HomePage.html"> About Me </a></li>
+		</ul>
+	</nav>
+	<main id = "bod">
+		<p>
+            <b>Geolocation Based Website:</b>
+            <br><br>
+            The idea of the project is to have a client/server location based interface where the user may submit locations, reviews and ratings, and those submissions will promptly become part of the central map. Unfortunately this project is only about 95% complete. All the source code may be found on my Github, linked on the bottom right.
+            <br><br>
+            <img style = "width:80%;height:40%;" id = "projectsImg" src = "Geo.PNG">
+            <br>
+            The API I used for the map was Leaflet. I believe that Leaflet provided the nicest looking maps that are also quite simple to implement. As you can see above, it doesn't crowd the user. The user is able to add markers to the map which are uploaded to a server. The markers include various pieces of information as mentioned above. To do this I set up a database table to contain all the marker information.
+            <br><br>
+            <img style = "float:left;width:35%;height:30%;" id = "projectsImg" src = "SignIn.PNG">
+            <img style = "float:right;width:65%;height:15%;" id = "projectsImg" src = "Markers.PNG">
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            The ability to add markers is contingent on the user being logged in. If they are not aregistered user they will not be bale to manipulate any data.
+            <br><br>
+            <img style = "width:90%;height:5%;" id = "projectsImg" src = "LogIn.PNG">
+            <br>
+            <img style = "width:90%;height:5%;" id = "projectsImg" src = "LoggedIn.PNG">
+            <br><br>
+            In the code you will see that proper security measures were taken place. This includes preparing SQL statements to counteract SQL injection attacks, JavaScript form validation, back-up server-side form validation in the case that the user disabled JavaScript and also only using POST statements.
+            <br><br>
+            <img style = "width:95%;height:40%;" id = "projectsImg" src = "CodeSnippet.PNG">
+        </p>
+        
+        <p>
+            <b>Conway's Game of Life:</b>
+            <br><br>
+        </p>
+	</main>
+    <footer id = "links">
+        <a href = "https://github.com/Djole123/General"><img id = "image" src = "github.png"></a>&nbsp
+        <a href = "https://www.linkedin.com/in/george-petrovic-5b7b81b1/"><img id = "image" src = "linkedin.png"></a>&nbsp
+        <a href = "https://www.facebook.com/djordje.petrovic.7127"><img id = "image" src = "facebook.png"></a>
+    </footer>
+</div>
+
+</body>
+
+</html>

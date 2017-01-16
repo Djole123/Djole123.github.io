@@ -1,0 +1,80 @@
+#general{
+	background: url(chalkboard.jpg);
+	background-attachment: fixed;
+	background-position: center;
+    height: 100%
+}
+
+#bod{
+    position: relative;
+	margin-left: 20%;
+	margin-right: 20%;
+    height: 100%;
+    background-color: #fae5d3;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+
+#bod p{
+    display: inline-block;
+    background-color: #dddddd;
+    text-align: left;
+    width: 94%;
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin-left: 2.5%;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+#navbar{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#navbar li{
+	float: right;
+	width: 25%;
+}
+
+#navbar li a:link, a:visited{
+	background-color: lightgrey;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+}
+
+#currentPage{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+#image{
+    height: 25%;
+    width: 25%;
+    border-radius: 25%;
+}
+
+#links{
+    position: fixed;
+    bottom: 0;
+    margin-left: 85%
+}
+
+#projectsImg{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+}
