@@ -24,9 +24,13 @@
     border-radius: 10px;
     margin-left: 2.5%;
     font-size: 15px;
-    font-family: 'Open Sans', sans-serif;
     font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
+}
+
+#bold{
+    font-size: 17px;
 }
 
 #navbar{
@@ -49,6 +53,7 @@
     display: inline-block;
     width: 100%;
     text-decoration: none;
+    font-size: 17px;
 }
 
 #currentPage{
@@ -58,6 +63,7 @@
     text-align: center;
     display: inline-block;
     width: 100%;
+    font-size: 17px;
 }
 
 #image{
