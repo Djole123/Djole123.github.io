@@ -1,39 +1,42 @@
-#general{
-	background: url(chalkboard.jpg);
+#general{/* This section gives the general styling of the entire page */ 
+	background: url(chalkboard.jpg); /* Making a custom background/texture */
 	background-attachment: fixed;
 	background-position: center;
-    height: 100%
+    height: 100% /* Pre-setting the height so it can be used later */
 }
 
-#bod{
-    position: relative;
+#bod{ /* This section sets the style of the body of my website */
+    position: relative; /* I set the position as relative because setting the position to fixed later lets the element seperate from the styling tree */
 	margin-left: 20%;
 	margin-right: 20%;
     height: 100%;
-    background-color: #fae5d3;
-    margin-top: 2%;
-    border-radius: 10px;
+    background-color: #fae5d3; /* Setting the background-color to a darkish beige */
+    margin-top: 2%; /* Setting the top to be seperate from the nav bar */
+    border-radius: 10px; /* curving the corners of the body */
 }
 
-#bod p{
+#bod p{ /* This section changes the style of all paragraph elements below the #bod id in the styling tree  */
     display: inline-block;
-    background-color: #dddddd;
+    background-color: #dddddd; /* Making the background of each paragraph grey */
     text-align: left;
-    width: 94%;
+    width: 94%; /* changing the width so it fits within the beige box properly */
     padding: 5px 5px;
     border-radius: 10px;
     margin-left: 2.5%;
     font-size: 15px;
+    /* The following three sets the fonts and back-up fonts from Google Fonts */
     font-family: 'Fira Sans Extra Condensed', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
 
 #bold{
+    /* making all bold tags increase the size of the font within them */
     font-size: 17px;
 }
 
 #navbar{
+    /* Setting up the navigational bar at the top */
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -41,11 +44,13 @@
 }
 
 #navbar li{
+    /* Changing the style of all list items within the nav bar */
 	float: right;
 	width: 25%;
 }
 
 #navbar li a:link, a:visited{
+    /* Changing the style of all the hyper links within list items within the nav bar */
 	background-color: lightgrey;
     color: black;
     padding: 10px 15px;
@@ -56,8 +61,8 @@
     font-size: 17px;
 }
 
-#currentPage{
-    background-color: black;
+#currentPage{ /* This is used to change the list items which correspond the the page the user is currently on */
+    background-color: black; /* Key difference is that it becomes black */
     color: white;
     padding: 10px 15px;
     text-align: center;
@@ -66,19 +71,19 @@
     font-size: 17px;
 }
 
-#image{
+#image{ /* General styling for images within the bottom-right links */
     height: 25%;
     width: 25%;
     border-radius: 25%;
 }
 
-#links{
+#links{ /* Changes the positioning of the links on the bottom right corner */
     position: fixed;
     bottom: 0;
     margin-left: 85%
 }
 
-#projectsImg{
+#projectsImg{ /* This creates the general style for the images used on the previous works page, width and heights are changed using in-line style */
     display: block;
     margin-right: auto;
     margin-left: auto;
