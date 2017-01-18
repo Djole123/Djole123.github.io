@@ -51,7 +51,7 @@
 
 #navbar li a:link, a:visited{
     /* Changing the style of all the hyper links within list items within the nav bar */
-	background-color: lightgrey;
+	background-color: #D3D3D3;
     color: black;
     padding: 10px 15px;
     text-align: center;
