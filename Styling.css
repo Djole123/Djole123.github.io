@@ -1,5 +1,5 @@
-#general{/* This section gives the general styling of the entire page */ 
-	background: url(chalkboard.jpg); /* Making a custom background/texture */
+#general{/* This section gives the general styling of the entire page */
+	background: url(imgs/chalkboard.jpg); /* Making a custom background/texture */
 	background-attachment: fixed;
 	background-position: center;
     height: 100% /* Pre-setting the height so it can be used later */

@@ -3,7 +3,7 @@
 
 <head>
     <title> Previous Works </title> <!-- All relevant meta data and css linking -->
-    <link rel="icon" href="Sprite400x400.png">
+    <link rel="icon" href="imgs/Sprite400x400.png">
     <!-- the icon of the tab was created by me, I have included 3 different resolutions in the source code. -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed|Open+Sans|Roboto" rel="stylesheet">
@@ -28,26 +28,26 @@
             <br><br>
             The idea of the project is to have a client/server location based interface where the user may submit locations, reviews and ratings, and those submissions will promptly become part of the central map. Unfortunately this project is only about 95% complete. All the source code may be found on my Github, linked on the bottom right.
             <br><br>
-            <img style = "width:80%;height:40%;" id = "projectsImg" src = "Geo.PNG" alt = "Image of Map">
+            <img style = "width:80%;height:40%;" id = "projectsImg" src = "imgs/Geo.PNG" alt = "Image of Map">
             <br>
             The API I used for the map was Leaflet. I believe that Leaflet provided the nicest looking maps that are also quite simple to implement. As you can see above, it doesn't crowd the user. The user is able to add markers to the map which are uploaded to a server. The markers include various pieces of information as mentioned above. To do this I set up a database table to contain all the marker information.
             <br><br>
-            <img style = "float:left;width:35%;height:30%;" id = "projectsImg" src = "SignIn.PNG" alt = "Image of Sign In">
-            <img style = "float:right;width:65%;height:15%;" id = "projectsImg" src = "Markers.PNG" alt = "Image of Uploading Markers">
+            <img style = "float:left;width:35%;height:30%;" id = "projectsImg" src = "imgs/SignIn.PNG" alt = "Image of Sign In">
+            <img style = "float:right;width:65%;height:15%;" id = "projectsImg" src = "imgs/Markers.PNG" alt = "Image of Uploading Markers">
             <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
             The ability to add markers is contingent on the user being logged in. If they are not aregistered user they will not be bale to manipulate any data.
             <br><br>
-            <img style = "width:90%;height:5%;" id = "projectsImg" src = "LogIn.PNG" alt = "Image of User Not Logged In">
+            <img style = "width:90%;height:5%;" id = "projectsImg" src = "imgs/LogIn.PNG" alt = "Image of User Not Logged In">
             <br>
-            <img style = "width:90%;height:5%;" id = "projectsImg" src = "LoggedIn.PNG" alt = "Image of User Logged In">
+            <img style = "width:90%;height:5%;" id = "projectsImg" src = "imgs/LoggedIn.PNG" alt = "Image of User Logged In">
             <br><br>
             In the code you will see that proper security measures were taken place. This includes preparing SQL statements to counteract SQL injection attacks, JavaScript form validation, back-up server-side form validation in the case that the user disabled JavaScript and also only using POST statements.
             <br><br>
-            <img style = "width:95%;height:40%;" id = "projectsImg" src = "CodeSnippet.PNG" alt = "Image of Code">
+            <img style = "width:95%;height:40%;" id = "projectsImg" src = "imgs/CodeSnippet.PNG" alt = "Image of Code">
             <br><br>
             I plan on finishing the remaining 5% of this project at a later time. This will include being able to upload images and being able to upload multiple reviews per marker. Currently there exists a small bug in the search function, this will also be changed when I make the other changes.
         </p>
-        
+
         <p>
             <!-- This section details my project for Conway's Game of Life -->
             <b id = "bold">Conway's Game of Life:</b>
@@ -59,35 +59,35 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&#8226; If there is a living cell with more than three living adjacent cells, it dies.<br>
             &nbsp;&nbsp;&nbsp;&nbsp;&#8226; If there is a dead cell with exactly three living adjacent cells, it comes to life.<br>
             <br>
-            <img style = "width:95%;height:40%;" id = "projectsImg" src = "Rules.PNG" alt = "Image of Rules in Code">
+            <img style = "width:95%;height:40%;" id = "projectsImg" src = "imgs/Rules.PNG" alt = "Image of Rules in Code">
             <br>
             In order for this project to work I decided that I would start by splitting up the entire page into a grid using enlarged pixels. Since pixels are squares I simply made them into 10x10 pixel making up a 245x245 pixel screen. The next step after setting up the grid is making a random number number of the pixels into living cells and the rest into dead cells. Following this a function combs through the entire grid, counts the number of living adjacent cells, and makes a decision based on the rules stated above. This is what a generation refers to.
             <br><br>
-            <img style = "width:60%;height:70%;" id = "projectsImg" src = "Scan.PNG" alt = "Image of Scanning Function">
+            <img style = "width:60%;height:70%;" id = "projectsImg" src = "imgs/Scan.PNG" alt = "Image of Scanning Function">
             <br>
-            <img style = "width:60%;height:50%;" id = "projectsImg" src = "Display.PNG" alt = "Image of Display Function">
+            <img style = "width:60%;height:50%;" id = "projectsImg" src = "imgs/Display.PNG" alt = "Image of Display Function">
             <br>
             There is a few other extra pieces of the projects which I will now detail. The user has the ability to control the speed of the generations, pause the generations, clear the screen, reset the whole application, create a living cell on mouse click and remove a living cell on mouse click. The code for this is displayed below:
             <br><br>
-            <img style = "float:left;width:40%;height:70%;" id = "projectsImg" src = "KeyFuncs.PNG" alt = "Image of Keyboard Functions">
-            <img style = "float:right;width:60%;height:70%;" id = "projectsImg" src = "MouseClick.PNG" alt = "Image of Mouse Click Function">
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <img style = "float:left;width:40%;height:70%;" id = "projectsImg" src = "imgs/KeyFuncs.PNG" alt = "Image of Keyboard Functions">
+            <img style = "float:right;width:60%;height:70%;" id = "projectsImg" src = "imgs/MouseClick.PNG" alt = "Image of Mouse Click Function">
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
             All the source code displayed above can be found on the github link on the bottom right of the screen.
         </p>
-        
+
         <p> <!-- This small blip mentions my work with requirements documentation -->
             <b id = "bold">Requirements Documentation:</b>
             <br><br>
             For my capstone project in my final year of University, I was appointed supervisor of requirements and any other documentation. During this time I spent a great deal of time working on making the general requirements document for our product. Our product was a software/hardware application called FollowThrough which was essentially a virtual basketball coach. I have included a short example of the requirements below, but the rest may be found on my github account linked on the bottom right corner.
             <br><br>
-            <img style = "width:95%;height:95%;" id = "projectsImg" src = "Requirements.PNG" alt = "Image of Requirements Doc">
+            <img style = "width:95%;height:95%;" id = "projectsImg" src = "imgs/Requirements.PNG" alt = "Image of Requirements Doc">
         </p>
 	</main>
     <!-- This section places the links for my Github, LinkedIn and Facebook pages -->
     <footer id = "links">
-        <a href = "https://github.com/Djole123/General"><img id = "image" src = "github.png" alt = "Github"></a>&nbsp;
-        <a href = "https://www.linkedin.com/in/george-petrovic-5b7b81b1/"><img id = "image" src = "linkedin.png" alt = "LinkedIn"></a>&nbsp;
-        <a href = "https://www.facebook.com/djordje.petrovic.7127"><img id = "image" src = "facebook.png" alt = "Facebook"></a>
+        <a href = "https://github.com/Djole123/General"><img id = "image" src = "imgs/github.png" alt = "Github"></a>&nbsp;
+        <a href = "https://www.linkedin.com/in/george-petrovic-5b7b81b1/"><img id = "image" src = "imgs/linkedin.png" alt = "LinkedIn"></a>&nbsp;
+        <a href = "https://www.facebook.com/djordje.petrovic.7127"><img id = "image" src = "imgs/facebook.png" alt = "Facebook"></a>
     </footer>
 </div>
 
