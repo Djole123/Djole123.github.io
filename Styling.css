@@ -30,7 +30,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.bold{
+#bold{
     /* making all bold tags increase the size of the font within them */
     font-size: 17px;
 }
@@ -71,7 +71,7 @@
     font-size: 17px;
 }
 
-.image{ /* General styling for images within the bottom-right links */
+#image{ /* General styling for images within the bottom-right links */
     height: 25%;
     width: 25%;
     border-radius: 25%;
